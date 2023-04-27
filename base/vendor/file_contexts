@@ -1314,3 +1314,6 @@
 
 # Chre hal
 /vendor/bin/hw/android\.hardware\.contexthub-service\.tinysys    u:object_r:hal_contexthub_default_exec:s0
+
+# Memtrack
+/(vendor|system/vendor)/bin/hw/android\.hardware\.memtrack-service\.mediatek-mali         u:object_r:hal_memtrack_default_exec:s0

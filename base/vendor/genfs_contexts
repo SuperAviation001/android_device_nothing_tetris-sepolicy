@@ -978,3 +978,7 @@ genfscon debugfs /mmprofile          u:object_r:debugfs_fb:s0
 genfscon iso9660 / u:object_r:iso9660:s0
 genfscon rawfs /   u:object_r:rawfs:s0
 
+# GPU
+genfscon sysfs /devices/platform/13040000.mali/dma_buf_gpu_mem u:object_r:sysfs_gpu:s0
+genfscon sysfs /devices/platform/13040000.mali/kprcs u:object_r:sysfs_gpu:s0
+genfscon sysfs /devices/platform/13040000.mali/total_gpu_mem u:object_r:sysfs_gpu:s0
