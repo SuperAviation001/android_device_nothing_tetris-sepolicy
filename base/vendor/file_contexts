@@ -901,6 +901,7 @@
 
 /(vendor|system/vendor)/bin/hw/mt[0-9]+[a-z]*/android\.hardware\.graphics\.allocator@4\.0-service-mediatek\.mt[0-9]+[a-z]*_r[0-9]+p[0-9]+ u:object_r:hal_graphics_allocator_default_exec:s0
 /(vendor|system/vendor)/bin/hw/mt[0-9]+[a-z]*/android\.hardware\.graphics\.allocator-V[0-9]+-service-mediatek\.mt[0-9]+[a-z]*_r[0-9]+p[0-9]+ u:object_r:hal_graphics_allocator_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.health-service\.mediatek                  u:object_r:hal_health_default_exec:s0
 
 # Google Trusty system files
 /(vendor|system/vendor)/bin/hw/android\.hardware\.keymaster@3\.0-service\.trusty u:object_r:hal_keymaster_default_exec:s0
