@@ -975,7 +975,6 @@ genfscon debugfs /mmprofile          u:object_r:debugfs_fb:s0
 ##########################
 # other files
 #
-genfscon iso9660 / u:object_r:iso9660:s0
 genfscon rawfs /   u:object_r:rawfs:s0
 
 # GPU

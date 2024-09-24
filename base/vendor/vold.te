@@ -8,11 +8,6 @@ allow vold proc_bootprof:file w_file_perms;
 
 # Date : WK16.19
 # Operation : Migration
-# Purpose : unmount /mnt/cd-rom. It causes by unmountAll() when VolumeManager starts
-allow vold iso9660:filesystem unmount;
-
-# Date : WK16.19
-# Operation : Migration
 # Purpose : vold will traverse /proc when remountUid().
 #           It will trigger violation if mtk customize some label in /proc.
 #           However, we should ignore the violation if the processes never access the storage.
