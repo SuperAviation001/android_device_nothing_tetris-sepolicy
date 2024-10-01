@@ -1172,6 +1172,7 @@
 /vendor/firmware/mali_csffw.bin     u:object_r:same_process_hal_file:s0
 /vendor/firmware/valhall-1691526.wa u:object_r:same_process_hal_file:s0
 
+/vendor/lib(64)?/android\.hardware\.graphics\.common-V[0-9]+-ndk\.so   u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/arm\.graphics-ndk_platform\.so                   u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/arm\.graphics-V[0-9]+-ndk_platform\.so           u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/arm\.graphics-V[0-9]+-ndk\.so                    u:object_r:same_process_hal_file:s0
