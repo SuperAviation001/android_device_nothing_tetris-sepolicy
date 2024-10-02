@@ -255,6 +255,10 @@ allow mtk_hal_camera nvdata_file:dir create_dir_perms;
 allow mtk_hal_camera nvcfg_file:lnk_file r_file_perms;
 allow mtk_hal_camera mnt_vendor_file:file create_file_perms;
 
+# Purpose: NDD
+allow mtk_hal_camera vendor_data_file:dir create_dir_perms;
+allow mtk_hal_camera vendor_data_file:file create_file_perms;
+
 # AAO
 allow mtk_hal_camera data_vendor_aao_file:dir create_dir_perms;
 allow mtk_hal_camera data_vendor_aao_file:file create_file_perms;
