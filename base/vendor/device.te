@@ -385,9 +385,6 @@ type mtk_usb_offload_device, dev_type;
 # Purpose : Support wwan ThinModem driver
 type mtk_wwan_device, dev_type;
 
-# Raw HID device
-type hidraw_device, dev_type;
-
 # Date 2022/12/27
 # Purpose: allow access conn_dbg_dev to change coredump mode
 type conn_dbg_dev_device, dev_type;
