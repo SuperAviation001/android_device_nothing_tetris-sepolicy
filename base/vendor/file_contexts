@@ -542,6 +542,7 @@
 /dev/adsp(/.*)?      u:object_r:adsp_device:s0
 /dev/adsp_0(/.*)?    u:object_r:adsp_device:s0
 /dev/adsp_1(/.*)?    u:object_r:adsp_device:s0
+/dev/adsp_in_scp(/.*)?     u:object_r:adsp_device:s0
 /dev/audio_ipi(/.*)? u:object_r:audio_ipi_device:s0
 /dev/audio_scp(/.*)? u:object_r:audio_scp_device:s0
 /dev/mtk_usb_offload(/.*)? u:object_r:mtk_usb_offload_device:s0
