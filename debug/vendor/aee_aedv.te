@@ -409,9 +409,6 @@ allow aee_aedv proc_dynamic_debug_control:file r_file_perms;
 allow aee_aedv debugfs_tracing_instances:dir r_dir_perms;
 allow aee_aedv debugfs_tracing_instances:file r_file_perms;
 
-allow aee_aedv binderfs_logs:dir r_dir_perms;
-allow aee_aedv binderfs_logs:file r_file_perms;
-
 allow aee_aedv proc_ion:dir r_dir_perms;
 allow aee_aedv proc_ion:file r_file_perms;
 allow aee_aedv proc_m4u_dbg:dir r_dir_perms;

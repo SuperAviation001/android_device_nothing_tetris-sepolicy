@@ -27,10 +27,6 @@ no_debugfs_restriction(`
     allow crash_dump debugfs_dmlog_debug:file r_file_perms;
   ')
 ')
-#Allow access to /dev/binderfs/binder_logs
-allow crash_dump binderfs_logs:dir r_dir_perms;
-allow crash_dump binderfs_logs:file r_file_perms;
-allow crash_dump binderfs_logs_proc:file r_file_perms;
 
 # Purpose: Allow crash_dump to read /proc/dma_heap/
 allow crash_dump proc_dmaheap:dir r_dir_perms;

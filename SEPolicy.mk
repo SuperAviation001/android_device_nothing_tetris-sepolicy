@@ -1,5 +1,5 @@
 # Board specific SELinux policy variable definitions
-MTK_SEPOLICY_PATH := device/mediatek/sepolicy_vndr
+MTK_SEPOLICY_PATH := device/nothing/tetris-sepolicy
 
 BOARD_VENDOR_SEPOLICY_DIRS += \
     $(MTK_SEPOLICY_PATH)/base/vendor \

@@ -204,13 +204,6 @@ allow system_server app_zygote:process getpgid;
 # Operation:R Migration
 allow system_server installd:process signal;
 
-# Date:2020/09/04
-# Operation:R Migration, add permission for AMS dump binderinfo when ANR happened in user load
-allow system_server binderfs_logs:dir r_dir_perms;
-allow system_server binderfs_logs:file r_file_perms;
-allow system_server binderfs_logs_proc:dir r_dir_perms;
-allow system_server binderfs_logs_proc:file r_file_perms;
-
 # Date:2020/09/24
 # Operation:R Migration, add permission for PMS access /data/media
 allow system_server media_rw_data_file:dir setattr;
